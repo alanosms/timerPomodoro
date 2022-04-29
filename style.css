@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Teko:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  background-color: #ebf0f2;
+  font-family: "Poppins", sans-serif;
+  font-size: 8vh;}
+.container-timer {
+  text-align: center;
+  margin-top: 35vh;
+}
+.menu {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.menu button {
+  color: black;
+  background: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 0.1px solid black;
+  margin: 0 20px 0 20px;
+}
+

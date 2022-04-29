@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pomodoro Timer</title>
+  </head>
+  <body>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <div class="container-timer">
+      <span id="min">00</span>
+      <span>:</span>
+      <span id="sec">00</span>
+      <div class="menu">
+        <button id="play"><i data-feather="play"></i></button>
+        <button id="pause"><i data-feather="pause"></i></button>
+        <button id="reset"><i data-feather="repeat"></i></button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
